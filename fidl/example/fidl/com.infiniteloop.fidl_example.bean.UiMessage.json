@@ -1,0 +1,1 @@
+{"type":"com.infiniteloop.fidl_example.bean.UiMessage","kind":"class","fields":[{"name":"message","type":"com.infiniteloop.fidl_example.bean.Message"},{"name":"progress","type":"int"},{"name":"isChecked","type":"bool"},{"name":"isFocus","type":"bool"},{"name":"isDownloading","type":"bool"},{"name":"isPlaying","type":"bool"}],"superType":"?"}

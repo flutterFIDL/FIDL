@@ -1,0 +1,4 @@
+enum MessageDirection {
+  Receive,
+  Send,
+}

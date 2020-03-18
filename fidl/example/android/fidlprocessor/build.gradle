@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.squareup:javapoet:1.12.1'
+    testImplementation 'junit:junit:4.12'
+    api 'com.jsoniter:jsoniter:0.9.19'
+    api project(':annotation')
+//    TODO 修改为相对路径
+    implementation files("/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/tools.jar")
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"

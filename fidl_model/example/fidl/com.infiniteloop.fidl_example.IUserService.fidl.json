@@ -1,0 +1,16 @@
+{
+  "cls": "com.infiniteloop.fidl_example.IUserService",
+  "kind": "fidl",
+  "methods": [
+    {
+      "name": "init",
+      "returns": "void",
+      "parameters": [
+        {
+          "name": "status",
+          "type": "com.infiniteloop.fidl.bean.MessageStatus"
+        }
+      ]
+    }
+  ]
+}

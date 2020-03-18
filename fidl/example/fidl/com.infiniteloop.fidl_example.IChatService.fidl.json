@@ -1,0 +1,1 @@
+{"cls":"com.infiniteloop.fidl_example.IChatService","kind":"fidl","methods":[{"name":"init","returns":"bool","parameters":[{"name":"user","type":"com.infiniteloop.fidl_example.bean.User(String)"}]}]}

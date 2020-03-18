@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4a6f21a-6cd1-45c7-add0-ac37002f92fd" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_28_9.0_" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y9GNNGjna93Ik1s4IG4Gs7uEgX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/example/fidl" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4a6f21a-6cd1-45c7-add0-ac37002f92fd" name="Default Changelist" comment="" />
+      <created>1582263395339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582263395339</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="46" key="#Notifications" timestamp="1582387120046">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state x="249" y="46" key="#Notifications/65.23.1375.877@65.23.1375.877" timestamp="1582387120046" />
+    <state x="503" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1582376555903">
+      <screen x="64" y="23" width="1376" height="877" />
+    </state>
+    <state x="503" y="119" key="#com.intellij.ide.util.MemberChooser/64.23.1376.877@64.23.1376.877" timestamp="1582376555903" />
+    <state width="1311" height="443" key="GridCell.Tab.0.bottom" timestamp="1582383853979">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state width="1311" height="444" key="GridCell.Tab.0.bottom/49.23.1391.877@49.23.1391.877" timestamp="1582352639939" />
+    <state width="1311" height="443" key="GridCell.Tab.0.bottom/64.23.1376.877@64.23.1376.877" timestamp="1582377042763" />
+    <state width="1311" height="443" key="GridCell.Tab.0.bottom/65.23.1375.877@65.23.1375.877" timestamp="1582383853979" />
+    <state width="1311" height="443" key="GridCell.Tab.0.center" timestamp="1582383853979">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state width="1311" height="444" key="GridCell.Tab.0.center/49.23.1391.877@49.23.1391.877" timestamp="1582352639938" />
+    <state width="1311" height="443" key="GridCell.Tab.0.center/64.23.1376.877@64.23.1376.877" timestamp="1582377042762" />
+    <state width="1311" height="443" key="GridCell.Tab.0.center/65.23.1375.877@65.23.1375.877" timestamp="1582383853979" />
+    <state width="1311" height="443" key="GridCell.Tab.0.left" timestamp="1582383853978">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state width="1311" height="444" key="GridCell.Tab.0.left/49.23.1391.877@49.23.1391.877" timestamp="1582352639938" />
+    <state width="1311" height="443" key="GridCell.Tab.0.left/64.23.1376.877@64.23.1376.877" timestamp="1582377042761" />
+    <state width="1311" height="443" key="GridCell.Tab.0.left/65.23.1375.877@65.23.1375.877" timestamp="1582383853978" />
+    <state width="1311" height="443" key="GridCell.Tab.0.right" timestamp="1582383853979">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state width="1311" height="444" key="GridCell.Tab.0.right/49.23.1391.877@49.23.1391.877" timestamp="1582352639939" />
+    <state width="1311" height="443" key="GridCell.Tab.0.right/64.23.1376.877@64.23.1376.877" timestamp="1582377042762" />
+    <state width="1311" height="443" key="GridCell.Tab.0.right/65.23.1375.877@65.23.1375.877" timestamp="1582383853979" />
+    <state x="49" y="23" width="1199" height="877" key="SettingsEditor" timestamp="1582347847284">
+      <screen x="49" y="23" width="1391" height="877" />
+    </state>
+    <state x="49" y="23" width="1199" height="877" key="SettingsEditor/49.23.1391.877@49.23.1391.877" timestamp="1582347847284" />
+    <state x="171" y="123" width="1169" height="677" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1582347709700">
+      <screen x="49" y="23" width="1391" height="877" />
+    </state>
+    <state x="171" y="123" width="1169" height="677" key="com.android.tools.idea.avdmanager.AvdListDialog/49.23.1391.877@49.23.1391.877" timestamp="1582347709700" />
+    <state x="354" y="154" width="761" height="614" key="find.popup" timestamp="1582361506541">
+      <screen x="65" y="23" width="1375" height="877" />
+    </state>
+    <state x="354" y="154" width="761" height="614" key="find.popup/65.23.1375.877@65.23.1375.877" timestamp="1582361506541" />
+  </component>
+</project>

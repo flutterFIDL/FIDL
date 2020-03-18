@@ -1,0 +1,1 @@
+{"type":"com.infiniteloop.fidl_example.bean.User(@Generic(T))","kind":"class","fields":[{"name":"country","type":"@Generic(T)"},{"name":"age","type":"int"},{"name":"name","type":"String"},{"name":"uid","type":"String"}],"superType":"?"}

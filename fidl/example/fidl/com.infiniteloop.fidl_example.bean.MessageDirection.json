@@ -1,0 +1,1 @@
+{"type":"com.infiniteloop.fidl_example.bean.MessageDirection(Receive,Send)","kind":"enum","fields":[{"name":"value","type":"int"}],"superType":""}

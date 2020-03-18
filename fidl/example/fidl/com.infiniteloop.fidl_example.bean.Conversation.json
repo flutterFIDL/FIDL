@@ -1,0 +1,1 @@
+{"type":"com.infiniteloop.fidl_example.bean.Conversation","kind":"class","fields":[{"name":"target","type":"String"},{"name":"type","type":"com.infiniteloop.fidl_example.bean.Conversation.ConversationType"}],"superType":"?"}

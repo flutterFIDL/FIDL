@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+## FIDL
 
-You can use the [editor on GitHub](https://github.com/flutterFIDL/FIDL/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+FIDL 可以实现原生类和 Dart 类的映射（根据`fidl.json`自动生成类），进而实现传输“对象”的能力，解决原生代码和 Flutter 共享数据需要编写大量样板代码的痛点。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+FIDL 的出现是为了弥补 Flutter Platfrom Channel 只支持基础数据类型的不足，把支持的类型扩展到枚举、类、泛型。
 
-### Markdown
+`项目现阶段只完成了 Android 和 Flutter 之间的对象传输功能，暂不支持iOS。`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 使用场景
 
-```markdown
-Syntax highlighted code block
+1、 比较复杂的第三方库，比如一个IM SDK，不支持flutter，只能在native侧集成，而又想在flutter层实现统一的UI，完成聊天功能的开发。这就需要从native侧传递大量的对象到flutter侧
 
-# Header 1
-## Header 2
-### Header 3
+2、已经有一定体量的native应用，想接入flutter，难以避免需要和native共享数据
 
-- Bulleted
-- List
+3、可能会出现的flutter负责ui，native侧负责数据和业务逻辑的开发模式
 
-1. Numbered
-2. List
+### 快速使用
 
-**Bold** and _Italic_ and `Code` text
+#### Android侧
 
-[Link](url) and ![Image](src)
+1、定义FIDL接口
+
+```java
+@FIDL
+public interface IUserService {
+	void initUser(User user);
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+2、执行命令`./gradlew assembleDebug`，生成IUserServiceStub类和fidl.json文件
 
-### Jekyll Themes
+3、打开通道，向Flutter公开方法
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/flutterFIDL/FIDL/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```java
+FidlChannel.openChannel(getFlutterEngine().getDartExecutor(), new IUserServiceStub() {
+  @Override
+  void initUser(User user){
+    System.out.println(user.name + " is " + user.age + "years old!");
+  }
+}
+```
 
-### Support or Contact
+#### Flutter侧
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1、拷贝fidl.json文件到fidl目录，执行命令`flutter packages pub run fidl_model`，生成Dart接口类
+
+2、绑定Android侧的IUserServiceStub通道
+
+```dart
+await Fidl.bindChannel(IUserService.CHANNEL_NAME, _channelConnection);
+```
+
+3、调用公开方法
+
+```dart
+await IUserService.initUser(User());
+```
+
+### 交流群
+
+QQ: 1055952922

@@ -1,0 +1,14 @@
+name: example
+description: Gernerate model class from FIDL Json files.
+version: 0.0.1
+author: lcodecorex <lcodecore@163.com>
+homepage:
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  json_serializable: ^3.2.5
+
+dev_dependencies:
+  build_runner: ^1.7.4

@@ -1,0 +1,1 @@
+{"type":"com.infiniteloop.fidl_example.bean.MessageContent","kind":"class","fields":[{"name":"pushContent","type":"String"},{"name":"extra","type":"String"},{"name":"mentionedTargets","type":"@list(String)"},{"name":"mentionedType","type":"int"}],"superType":"?"}

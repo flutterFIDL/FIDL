@@ -1,0 +1,3 @@
+enum EmptyEnum {
+  none
+}

@@ -1,0 +1,11 @@
+{
+  "type": "com.infiniteloop.fidl.bean.MessageStatus(Played,Readed,Unread,AllMentioned,Mentioned,Send_Failure,Sent,Sending)",
+  "kind": "enum",
+  "fields": [
+    {
+      "name": "value",
+      "type": "int"
+    }
+  ],
+  "superType": ""
+}
